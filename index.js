@@ -1,1 +1,3 @@
-export * from './lib/mqtt'
+import mqtt from './mqtt'
+
+export default mqtt
