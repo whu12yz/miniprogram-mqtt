@@ -1,12 +1,18 @@
 {
   "name": "miniprogram-mqtt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mqtt", "miniprogram", "websocket", "小程序", "applet"],
+  "keywords": [
+    "mqtt",
+    "miniprogram",
+    "websocket",
+    "小程序",
+    "applet"
+  ],
   "author": "yangzhang",
   "license": "MIT"
 }
