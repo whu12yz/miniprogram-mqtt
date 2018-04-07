@@ -2,9 +2,13 @@
   "name": "miniprogram-mqtt",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/mqtt.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node_modules/webpack/bin/webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/whu12yz/miniprogram-mqtt.git"
   },
   "keywords": [
     "mqtt",
@@ -14,5 +18,23 @@
     "applet"
   ],
   "author": "yangzhang",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ansi-styles": "^3.2.1",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "6",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "core-js": "^2.5.4",
+    "escape-string-regexp": "^1.0.5",
+    "esutils": "^2.0.2",
+    "globals": "^11.4.0",
+    "ms": "^2.1.1",
+    "to-fast-properties": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "1"
+  }
 }
